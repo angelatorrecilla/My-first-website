@@ -1,106 +1,80 @@
 <!DOCUTYPE html>
 <html>
-  <head>
-    <title>C.O.D.E</title>
-        <link rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Aboutus.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html"><B>C.O.D.E </a>
-    <img src="hanger.png" alt="logo" style="width:80px;"/>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Unisex clothing
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="productpage.html">Products</a>
-            <a class="dropdown-item" href="checkout.html">Checkout</a>
-          </div>
-        </li>
-
-      </ul>
-    </div>
-  </nav>
-
-=======
+<head>
+  <link href="checkout.css" rel="stylesheet" type="text/css">
+</head>
+<body>
 <div class="row">
   <div class="col-75">
     <div class="container">
       <form action="/action_page.php">
-
-        <div class="row">
-          <div class="col-50">
-            <h3>Billing Address</h3>
-            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
-            <label for="email"><i class="fa fa-envelope"></i> Email</label>
-            <input type="text" id="email" name="email" placeholder="john@example.com">
-            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-            <label for="city"><i class="fa fa-institution"></i> City</label>
-            <input type="text" id="city" name="city" placeholder="New York">
-
-            <div class="row">
-              <div class="col-50">
-                <label for="state">State</label>
-                <input type="text" id="state" name="state" placeholder="NY">
-              </div>
-              <div class="col-50">
-                <label for="zip">Zip</label>
-                <input type="text" id="zip" name="zip" placeholder="10001">
-              </div>
-            </div>
-          </div>
-
-          <div class="col-50">
-            <h3>Payment</h3>
-            <label for="fname">Accepted Cards</label>
-            <div class="icon-container">
-              <i class="fa fa-cc-visa" style="color:navy;"></i>
-              <i class="fa fa-cc-amex" style="color:blue;"></i>
-              <i class="fa fa-cc-mastercard" style="color:red;"></i>
-              <i class="fa fa-cc-discover" style="color:orange;"></i>
-            </div>
-            <label for="cname">Name on Card</label>
-            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-            <label for="ccnum">Credit card number</label>
-            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-            <label for="expmonth">Exp Month</label>
-            <input type="text" id="expmonth" name="expmonth" placeholder="September">
-
-            <div class="row">
-              <div class="col-50">
-                <label for="expyear">Exp Year</label>
-                <input type="text" id="expyear" name="expyear" placeholder="2018">
-              </div>
-              <div class="col-50">
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" placeholder="352">
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <label>
-          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-        </label>
-        <input type="submit" value="Continue to checkout" class="btn">
-      </form>
-    </div>
+<div>
+<h1>Checkout</h1>
+</div>
+<div class="col-50">
+ <h2>Billing Address</h2>
+</div>
+  <div class="col-50">
+   <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+   <input type="text" id="fname" name="firstname" placeholder="Olivia Smith">
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <div class="col-50">
+   <label for="email"><i class="fa fa-envelope"></i> Email</label>
+   <input type="text" id="email" name="email" placeholder="osmith@example.com">
+  </div>
+  <div class="col-50">
+   <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+   <input type="text" id="adr" name="address" placeholder="Leeds Beckett University">
+  </div>
+  <div class="col-50">
+   <label for="city"><i class="fa fa-institution"></i> City</label>
+   <input type="text" id="city" name="city" placeholder="Leeds">
+  </div>
+  <div class="col-50">
+   <label for="country">Country</label>
+   <input type="text" id="Country" name="Country" placeholder="United Kingdom">
+  </div>
+  <div class="col-50">
+   <label for="postcode">Postcode</label>
+   <input type="text" id="postcode" name="postcode" placeholder="LS1 3HE">
+  </div>
+<div class="col-50">
+ <h3>Payment</h3>
+   <label for="fname">Accepted Cards: VISA, MasterCard, American Express</label>
+  <div class="icon-container">
+  </div>
+   <label for="cname">Name on Card</label>
+   <input type="text" id="cname" name="cardname" placeholder="Olivia Smith">
+   <label for="ccnum">Card Number</label>
+   <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+   <label for="expdate">Exp Date</label>
+   <input type="text" id="expdate" name="expdate" placeholder="05/2021">
+   <label for="cvv">CVV</label>
+   <input type="text" id="cvv" name="cvv" placeholder="352">
+</div>
+  <label>
+   <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+  </label>
+  <div>
+   <input type="submit" value="Continue to Checkout" class="btn">
+ </div>
+  </form>
+  </div>
+ </div>
+<div class="col-25">
+<div class="container">
+ <h4>Cart
+  <span class="price" style="color:black">
+   <i class="fa fa-shopping-cart"></i>
+  </span>
+ </h4>
+   <p><a href="#">C.O.D.E. Limited Edition Logo T-Shirt (White, UK 8, Qty 1)</a> <span class="price">= £14.99</span></p>
+   <p><a href="#">C.O.D.E. Basic Socks (White/Lilac, Small, Qty 1)</a> <span class="price">= £5</span></p>
+   <p><a href="#">C.O.D.E. Basic Round-Neck T-Shirt (Pastel Blue, UK 8, Qty 1)</a> <span class="price">= £8</span></p>
+   <p><a href="#">C.O.D.E. Oversized Corduroy Jacket (Black, Medium, Qty 1)</a> <span class="price">= £22.50</span></p>
+ <hr>
+   <p>Total <span class="price" style="color:black"><b>£50.49</b></span></p>
+ </div>
+ </div>
+ </div>
 </body>
-</html>
